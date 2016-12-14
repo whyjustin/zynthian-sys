@@ -11,7 +11,7 @@ sudo chown -R pi:pi $ZYNTHIAN_DIR/zynthian-ui
 
 echo "Updating zynthian-sys ..."
 cd $ZYNTHIAN_DIR/zynthian-sys
-git pull
+git pull origin sonar2016
 sudo ./scripts/update_zynthian_sys.sh
 
 echo "Updating zyncoder ..."
@@ -23,5 +23,5 @@ make
 
 echo "Updating zynthian-ui ..."
 cd $ZYNTHIAN_DIR/zynthian-ui
-git pull
+git pull origin sonar2016
 
